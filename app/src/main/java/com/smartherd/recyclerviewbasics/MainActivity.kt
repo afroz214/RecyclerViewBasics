@@ -12,12 +12,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val item = ArrayList<Custom_class>()
-        item.add(Custom_class("Android App", R.drawable.background_two))
-        item.add(Custom_class("Android App", R.drawable.background_two))
-        item.add(Custom_class("Android App", R.drawable.background_two))
-        item.add(Custom_class("Android App", R.drawable.background_two))
-        item.add(Custom_class("Android App", R.drawable.background_two))
-        item.add(Custom_class("Android App", R.drawable.background_two))
+        item.add(Custom_class("Android App","Android is goog","9897989728", R.drawable.background_two))
+        item.add(Custom_class("Android App","Android is goog","9897989728", R.drawable.background_two))
+        item.add(Custom_class("Android App","Android is goog","9897989728", R.drawable.background_two))
+        item.add(Custom_class("Android App","Android is goog","9897989728", R.drawable.background_two))
+        item.add(Custom_class("Android App","Android is goog","9897989728", R.drawable.background_two))
+        item.add(Custom_class("Android App","Android is goog","9897989728", R.drawable.background_two))
 
         val adapter = Adapter(item, applicationContext)
         recycler_data.layoutManager = GridLayoutManager(applicationContext, 3)
